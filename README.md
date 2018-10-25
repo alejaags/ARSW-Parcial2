@@ -6,6 +6,7 @@
 
 Al implementar el cliente web de manera asíncrona evitamos el desperdicio de memoria del computador al actualizar constantemente la aplicación.
 
+URL HEROKU: https://guarded-sea-87491.herokuapp.com/
 
 
 
