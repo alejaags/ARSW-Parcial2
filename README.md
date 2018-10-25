@@ -1,3 +1,17 @@
+# EXPLICACIÓN ARQUITECTURA
+  Al mejorar la arquitectura se hizo uso de los patrones GRASP ya que al modelar la aplicación de esta manera nos es posible tener una alta cohesión y un bajo acoplamiento, la interfaz "HttpConnection" permite extender la aplicación por medio de fábricas, de tal manera que todas las clases que se quieran usar implementen esta.
+  El uso de paquetes ordenados nos permite entender de una forma más fácil la aplicación y así mismo nos reduce el acoplamiento de la misma.
+  
+  La implementación de un cache en la aplicación nos permite realizar busquedas de manera más ágil, de tal forma que si un usuario ya realizó la busqueda de una ciudad, esta sea más fácil de encontrar por medio del cache.
+
+Al implementar el cliente web de manera asíncrona evitamos el desperdicio de memoria del computador al actualizar constantemente la aplicación.
+
+
+
+
+
+
+
 # java-getting-started
 
 [![CircleCI](https://circleci.com/gh/heroku/java-getting-started.svg?style=svg)](https://circleci.com/gh/heroku/java-getting-started)
